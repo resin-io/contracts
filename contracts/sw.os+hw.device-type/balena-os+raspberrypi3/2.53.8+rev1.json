@@ -1,0 +1,28 @@
+{
+  "slug": "balena-os-raspberrypi3",
+  "type": "sw.os-flavor",
+  "version": "2.53.8+rev1",
+  "name": "BalenaOS {{this.version}}",
+  "data": {
+    "device-type-slug": "raspberrypi3"
+  },
+  "requires": [{"type": "hw.device-type", "slug": "{{this.data.device-type-slug}}"}],
+  "assets": {
+    "image": {
+      "name": "os image",
+      "url": "https://files.balena-cloud.com/images/{{this.data.device-type-slug}}/{{this.version}}.{{this.data.variant}}/image/balena.img"
+    },
+    "compressed-image": {
+      "name": "compressed os image",
+      "url": "https://files.balena-cloud.com/images/{{this.data.device-type-slug}}/{{this.version}}.{{this.data.variant}}/compressed"
+    },
+    "docker-image": {
+      "name": "docker image",
+      "url": ""
+    }
+  },
+  "variants": [
+    { "data": {"variant": "production"}},
+    { "data": {"variant": "development" }}
+  ]
+}

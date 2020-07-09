@@ -1,0 +1,1 @@
+Insert the freshly burnt {{hw.device-type.data.media.installation}} into {{hw.device-type.name}}.

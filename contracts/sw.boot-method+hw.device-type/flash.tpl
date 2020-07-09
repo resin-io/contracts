@@ -1,0 +1,1 @@
+Write the OS file you downloaded to your {{hw.device-type.data.media.installation}}. We recommend using <a href=\"http://www.etcher.io/\">Etcher</a>.
