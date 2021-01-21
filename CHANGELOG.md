@@ -5,6 +5,11 @@
 * Device: Add new contract for Stem x86 32bit [Trong Nghia Nguyen]
 * Qemu: Update qemu to v3.0.0+resin [Trong Nghia Nguyen]
 
+# v1.12.10
+## (2021-01-21)
+
+* rpi: Fix all raspberrypi distro-config.tpl [Ethan Dye]
+
 # v1.12.9
 ## (2021-01-21)
 
