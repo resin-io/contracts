@@ -1,6 +1,6 @@
 {
   "name": "contracts",
-  "version": "1.12.15",
+  "version": "1.13.0",
   "description": "Balena Base Contracts",
   "repository": {
     "type": "git",
@@ -8,7 +8,8 @@
   },
   "private": true,
   "scripts": {
-    "test": "eslint scripts && node scripts/check-contracts.js"
+    "test": "eslint scripts && node scripts/check-contracts.js",
+    "generate-instructions": "node ./scripts/process-blueprints instructions"
   },
   "author": "Balena Inc. <hello@balena.io>",
   "license": "Apache-2.0",
