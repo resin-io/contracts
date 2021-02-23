@@ -1,0 +1,6 @@
+{
+  "slug": "balena-os",
+  "type": "sw.os",
+  "version": "1",
+  "name": "BalenaOS {{this.version}}"
+}

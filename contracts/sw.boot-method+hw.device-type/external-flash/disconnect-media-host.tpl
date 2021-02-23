@@ -1,0 +1,1 @@
+Disconnect the {{hw.device-type.data.media.installation}} from your host computer.

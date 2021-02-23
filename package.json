@@ -19,5 +19,12 @@
     "eslint-plugin-node": "^5.2.0",
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-standard": "^3.0.1"
+  },
+  "dependencies": {
+    "@balena/contrato": "^0.3.0",
+    "fs-extra": "^9.0.1",
+    "js-yaml": "^3.14.0",
+    "lodash": "^4.17.19",
+    "require-all": "^3.0.0"
   }
 }
