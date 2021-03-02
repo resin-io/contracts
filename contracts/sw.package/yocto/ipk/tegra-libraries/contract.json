@@ -1,0 +1,25 @@
+{
+  "slug": "tegra-libraries",
+  "type": "sw.package.yocto.ipk",
+  "name": "Package list that provide Tegra GPU support",
+  "version": "1.0.0",
+  "composedOf": {
+	"packages": [
+		"tegra-libraries",
+		"libglvnd",
+		"libtirpc",
+		"libcap",
+		"elfutils",
+		"libelf",
+		"tegra-libraries-argus",
+		"tegra-libraries-argus-daemon-base",
+		"tegra-libraries-container-csv",
+		"tegra-libraries-libnvosd",
+		"tegra-libraries-libv4l-plugins",
+		"libnvidia-container-tools",
+		"nvidia-container-toolkit",
+		"nvidia-container-runtime",
+		"go-runtime"
+	]
+   }
+}
