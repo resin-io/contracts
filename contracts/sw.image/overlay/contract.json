@@ -1,0 +1,10 @@
+{
+  "slug": "Overlay image",
+  "version": "1.0.0",
+  "type": "sw.image",
+  "data": {
+    "class": "overlay",
+    "reboot-required": "1",
+    "store": "data"
+  }
+}
